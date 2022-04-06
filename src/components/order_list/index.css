@@ -1,0 +1,104 @@
+html,
+body {
+    
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridBox {
+    width: 95%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-color: rgb(143, 143, 143);
+    border-style: solid;
+    padding: 25px;
+}
+
+.linha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.linha span {
+    padding: 8px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(245, 245, 245);
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.header span {
+    padding: 8px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: rgb(66, 66, 146);
+}
+
+.header {
+    height: min-content;
+    text-align: center;
+
+    border-radius: 5px;
+    margin: 4px;
+    font-size: 16px;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.linha:nth-child(odd) span {
+    background: rgb(204, 204, 204);
+}
+
+.linha:nth-child(even) {
+    background: rgb(255, 255, 255);
+}
+
+.totalPed {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.info {
+    text-align: center;
+    padding: 1px;
+
+}
+
+.info2 {
+    text-align: center;
+    padding: 1px;
+
+}
+
+
+.box {
+    margin: 5px;
+    height: 55px;
+    background-color: rgba(230, 230, 230, 0.884);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-color: rgb(143, 143, 143);
+    border-style: solid;
+}
+.h1 {
+    align-items: center;
+
+}
